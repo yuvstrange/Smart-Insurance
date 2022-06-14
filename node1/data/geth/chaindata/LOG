@@ -1,0 +1,74 @@
+=============== Oct 23, 2021 (IST) ===============
+11:31:23.782277 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:31:24.016572 db@open opening
+11:31:24.116904 version@stat F·[] S·0B[] Sc·[]
+11:31:24.181559 db@janitor F·2 G·0
+11:31:24.182086 db@open done T·165.3385ms
+11:31:24.228749 db@close closing
+11:31:24.229916 db@close done T·1.1664ms
+=============== Oct 23, 2021 (IST) ===============
+14:29:22.993749 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:29:22.996588 version@stat F·[] S·0B[] Sc·[]
+14:29:22.997233 db@open opening
+14:29:22.997925 journal@recovery F·1
+14:29:23.006434 journal@recovery recovering @1
+14:29:23.113520 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v433":"\xfe\x88\xcf..H\xef\xcc,v366"
+14:29:23.125170 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+14:29:23.291410 db@janitor F·3 G·0
+14:29:23.291410 db@open done T·294.0669ms
+14:29:23.953454 db@close closing
+14:29:23.954073 db@close done T·618.6µs
+=============== Oct 23, 2021 (IST) ===============
+14:30:40.579344 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:30:40.598126 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+14:30:40.598647 db@open opening
+14:30:40.599285 journal@recovery F·1
+14:30:40.611614 journal@recovery recovering @3
+14:30:40.690097 memdb@flush created L0@5 N·266 S·11KiB "Dat..ion,v627":"unc..own,v633"
+14:30:40.699633 version@stat F·[2] S·61KiB[61KiB] Sc·[0.50]
+14:30:40.864080 db@janitor F·4 G·0
+14:30:40.864141 db@open done T·265.4705ms
+=============== Oct 23, 2021 (IST) ===============
+18:19:41.350890 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:19:41.422071 version@stat F·[2] S·61KiB[61KiB] Sc·[0.50]
+18:19:41.422071 db@open opening
+18:19:41.422607 journal@recovery F·1
+18:19:41.426389 journal@recovery recovering @6
+18:19:41.922633 memdb@flush created L0@8 N·191 S·7KiB "H\v\xe6..D\x0f\x1c,v916":"unc..own,v894"
+18:19:41.940888 version@stat F·[3] S·69KiB[69KiB] Sc·[0.75]
+18:19:42.410731 db@janitor F·5 G·0
+18:19:42.410826 db@open done T·988.7558ms
+=============== Oct 24, 2021 (IST) ===============
+12:12:11.130735 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:12:11.165965 version@stat F·[3] S·69KiB[69KiB] Sc·[0.75]
+12:12:11.165965 db@open opening
+12:12:11.167055 journal@recovery F·1
+12:12:11.168236 journal@recovery recovering @9
+12:12:12.955458 memdb@flush created L0@11 N·25791 S·1MiB "H\x00\a..\xd9hG,v25448":"unc..own,v1086"
+12:12:12.957441 version@stat F·[4] S·1MiB[1MiB] Sc·[1.00]
+12:12:13.181279 db@janitor F·6 G·0
+12:12:13.181279 db@open done T·2.0153138s
+12:12:13.181856 table@compaction L0·4 -> L1·0 S·1MiB Q·26877
+12:12:13.277261 db@close closing
+12:12:13.429033 table@build created L1@14 N·18213 S·1MiB "\x02d\xfc..\x19Ba,v433":"\xfe\x88\xcf..H\xef\xcc,v366"
+12:12:13.429033 table@build exiting
+12:12:13.429033 table@build revert @14
+12:12:13.432695 db@close done T·154.4346ms
+=============== Oct 24, 2021 (IST) ===============
+12:20:54.370536 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:20:54.371109 version@stat F·[4] S·1MiB[1MiB] Sc·[1.00]
+12:20:54.371109 db@open opening
+12:20:54.371635 journal@recovery F·1
+12:20:54.374129 journal@recovery recovering @12
+12:20:54.451267 memdb@flush created L0@14 N·1 S·387B "eth..\xd5\x1f:,v26878":"eth..\xd5\x1f:,v26878"
+12:20:54.457956 version@stat F·[5] S·1MiB[1MiB] Sc·[1.25]
+12:20:54.613521 db@janitor F·7 G·0
+12:20:54.613521 db@open done T·242.4123ms
+12:20:54.613521 table@compaction L0·5 -> L1·0 S·1MiB Q·26879
+12:20:54.695883 table@build created L1@17 N·18213 S·1MiB "\x02d\xfc..\x19Ba,v433":"\xfe\x88\xcf..H\xef\xcc,v366"
+12:20:54.696668 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+12:20:54.716120 table@compaction committed F-4 S-348KiB Ke·0 D·8661 T·102.4642ms
+12:20:54.723130 table@remove removed @11
+12:20:54.725163 table@remove removed @8
+12:20:54.726474 table@remove removed @5
+12:20:54.728550 table@remove removed @2
